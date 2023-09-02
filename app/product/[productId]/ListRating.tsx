@@ -3,6 +3,7 @@
 
 import { Avatar, Rating } from "@mui/material";
 import moment from "moment";
+import Heading from "@/app/components/Heading";
 
 interface ListRatingProps {
     product: any;
