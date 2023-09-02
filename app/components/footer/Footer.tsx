@@ -26,7 +26,7 @@ const Footer = () => {
                         <Link href="#">Watches</Link>
                         <Link href="#">FAQs</Link>
                     </FooterList>
-                    <div className="w-fully md:w-1/3 mb-6 md:mb-2">
+                    <div className="w-full md:w-1/3 mb-6 md:mb-2">
                         <h3 className="text-base font-bold mb-2">About Us</h3>
                         <p className="mb-2">At our electronics store, we are dedicated to providing the latest and greatest devices and accessories to our customers. With a wide selection of phones, TVs, laptops, watches, and accessories.</p>
                         <p>&copy; {new Date().getFullYear()} E-Shop. All rights reserved</p>
