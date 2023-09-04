@@ -1,6 +1,7 @@
-import { CartProductType } from "@/app/product/[productId]/ProductDetails";
+
 import { createContext, useCallback, useContext, useEffect, useState } from "react";
 import {toast} from "react-hot-toast";
+import {CartProductType} from "@/app/product/[productId]/productDetails";
 
 type CartContextType = {
     cartTotalQty: number,
