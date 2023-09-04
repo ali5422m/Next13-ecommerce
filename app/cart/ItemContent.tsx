@@ -1,12 +1,13 @@
 'use client';
 
-import formatPrice from "@/utils/formatPrice";
+
 import Link from "next/link";
 import { truncateText } from "@/utils/truncateText";
 import Image from "next/image";
 import SetQuantity from "../components/products/SetQuantity";
 import { useCart } from "@/hooks/useCart";
 import {CartProductType} from "@/app/product/[productId]/productDetails";
+import formatPrice from "@/utils/formatPrice";
 
 interface ItemContentProps {
     item : CartProductType

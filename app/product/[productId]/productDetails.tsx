@@ -4,6 +4,11 @@ import { useCallback, useEffect, useState } from "react";
 import { Rating } from "@mui/material";
 import { MdCheckCircle } from "react-icons/md";
 import { useRouter } from "next/navigation";
+import {useCart} from "@/hooks/useCart";
+import ProductImage from "@/app/components/products/ProductImage";
+import Button from "@/app/components/Button";
+import SetColor from "@/app/components/products/SetColor";
+import SetQuantity from "@/app/components/products/SetQuantity";
 
 interface ProductDetailsProps {
     product: any;
